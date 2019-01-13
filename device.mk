@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -32,3 +33,7 @@ $(call inherit-product, device/samsung/exynos7870-common/device-common.mk)
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/on7xelte/on7xelte-vendor.mk)
+
+# Trust HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
