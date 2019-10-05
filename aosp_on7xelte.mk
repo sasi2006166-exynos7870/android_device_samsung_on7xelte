@@ -21,7 +21,7 @@ $(call inherit-product, device/samsung/on7xelte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common PixelExperience  stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier
 PRODUCT_NAME := aosp_on7xelte
